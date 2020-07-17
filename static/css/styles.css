@@ -1,0 +1,286 @@
+@font-face{
+    font-family: 'Gilroy';
+    src:url("Gilroy-Regular.woff") format("woff");
+}
+* {
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Gilroy';
+    max-width: 100%;
+    background-color: #E5E5E5;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+}
+.brand-text{
+    display: flex;
+    flex-direction:column ;
+    color: #333333;
+    margin: auto 0;
+
+}
+.text-first{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+}
+.text-second{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.new{
+    max-width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.feat{
+    width: 75%;
+}
+
+.tnp-form {
+    width: 95%;
+    position: relative;
+  }
+  .tnp-subscription {
+    max-width: 500px;
+    font-size: 15px;
+    display: block;
+    padding: 0px 0px;
+    border-radius: 10px ;
+
+  }
+  .tnp-email{
+      width: 100%;
+      padding-left: 20px;
+      height: 90px;
+      border: 2px solid #E5E5E5;
+      border-radius: 5px ;
+  }
+  .tnp-submit{
+    position:absolute;
+    width: 135px;
+    height: 80px;
+    border: 2px;
+    border-radius: 5px ;
+    background: #752836;;
+    right: 5px;
+    top: 5px;
+  }
+  .tnp-submit:hover,.tnp-submit:active{
+      background-color: #522029;
+  }
+  .margin{
+      margin-top: 120px;
+  }
+  .header{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #D94A64; 
+  }
+  .title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: #333333;
+    margin: 20px 0px;
+  }
+  .content{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #7D7D7D;
+  }
+   /* footer */
+.footer{
+    background-color: rgba(255, 146, 165, 0.5);
+    max-width: 100%;
+    background-image: url("../img/brain_image2.png");
+    background-size: 200px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-text{
+    width: 75%;
+    
+}
+.new-content2{
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.tnp-form2 {
+    width: 95%;
+    position: relative;
+  }
+  .tnp-subscription2 {
+    max-width: 500px;
+    font-size: 15px;
+    display: block;
+    padding: 0px 0px;
+    border-radius: 10px ;
+    margin: 0 auto;
+
+  }
+  .tnp-email2{
+      width: 100%;
+      padding-left: 20px;
+      height: 50px;
+      border: 2px solid #E5E5E5;
+      border-radius: 5px ;
+  }
+  .tnp-submit2{
+    position:absolute;
+    width: 120px;
+    height: 40px;
+    border: 2px;
+    border-radius: 5px ;
+    background: #752836;;
+    right: 5px;
+    top: 5px;
+  }
+  .tnp-submit2:hover,.tnp-submit2:active{
+      background-color: #522029;
+  }
+
+.footer-image{
+    width: 25%;
+}
+.footer-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 500px) {
+/* Styles */
+.new {
+    text-align: center;
+
+}
+.margin{
+    text-align: center;
+}
+.content{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+.title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.header{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+.tnp-form{
+    width: 100%;
+}
+.tnp-email{
+    height: 55px;
+}
+.tnp-submit{
+    height: 50px;
+}
+
+.footer{
+    background-image: url("../img/footer-brain-small.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.margin{
+    margin-top:0px;
+}
+.never-container{
+    display: flex;
+}
+.never-image{
+    order: 2;
+}
+.never-text{
+    order: 1;
+}
+.new-content2{
+    display: none;
+}
+.memories-container{
+    display: flex;
+}
+.memories-text{
+    order: 1;
+}
+.memories-image{
+    order: 2;
+}
+.bookmark-container{
+    display: flex;
+}
+.bookmark-text{
+    order: 1;
+}
+.bookmark-image{
+    order: 2;
+}
+.footer-brand{
+    margin-bottom: 20px;
+}
+.text-second{
+    font-size: 8px;
+    line-height: 10px;
+}
+.text-first{
+    font-size: 16px;
+    line-height: 17px;
+}
+.footer-logo{
+    width: 44px;
+    height: 38px;
+}
+.tnp-email2{
+    width: 300px;
+    font-size: 12px;
+}
+.tnp-subscription2{
+    width: 300px;
+}
+.tnp-submit2{
+    width: 97px;
+    font-size: 12px;
+    right: -10px;
+}
+.footer-text{
+    width: 100%;
+}
+
+}
+
+
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+.margin{
+    text-align: left;
+}
+
+}
